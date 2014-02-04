@@ -1,5 +1,6 @@
 GEM
   remote: https://rubygems.org/
+  remote: https://rails-assets.org/
   specs:
     actionmailer (4.0.2)
       actionpack (= 4.0.2)
@@ -65,6 +66,9 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.2)
       sprockets-rails (~> 2.0.0)
+    rails-assets-angular (1.2.10)
+    rails-assets-angular-mocks (1.2.10)
+      rails-assets-angular (= 1.2.10)
     railties (4.0.2)
       actionpack (= 4.0.2)
       activesupport (= 4.0.2)
@@ -132,6 +136,8 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   rails (= 4.0.2)
+  rails-assets-angular
+  rails-assets-angular-mocks
   rspec-rails
   sass-rails (~> 4.0.0)
   sdoc
