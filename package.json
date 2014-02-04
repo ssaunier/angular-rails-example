@@ -1,0 +1,9 @@
+{
+  "name": "weroom-app",
+  "dependencies" : {
+    "karma":  ">= 0.10.9",
+    "karma-jasmine": "0.1.5",
+    "karma-ng-scenario": "0.1.0",
+    "phantomjs": "1.9.7-1"
+  }
+}
