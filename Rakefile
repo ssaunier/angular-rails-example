@@ -4,3 +4,5 @@
 require File.expand_path('../config/application', __FILE__)
 
 AngularRailsExample::Application.load_tasks
+
+task :default => "karma:run"
