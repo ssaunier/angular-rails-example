@@ -5,4 +5,4 @@ rvm:
   - 1.9.3
 before_install: npm install && mkdir tmp
 script:
-  - RAILS_ENV=test bundle exec rake karma:run
+  - RAILS_ENV=development bundle exec rake karma:run
