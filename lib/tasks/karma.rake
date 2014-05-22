@@ -14,7 +14,7 @@ namespace :karma  do
       f.write unit_js(application_spec_files)
       f.flush
 
-      system "./node_modules/.bin/karma #{command} #{f.path} #{args}"
+      system "./node_modules/bin/karma #{command} #{f.path} #{args}"
     end
   end
 
